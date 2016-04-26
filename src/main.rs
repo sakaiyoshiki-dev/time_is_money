@@ -17,6 +17,7 @@ fn main() {
   let second_wage: f32 = hourly_wage/60.0/60.0;
   println!("second_wage :{:?}",second_wage);
 
+
   // Count time in second
   let start_time = time::Instant::now();
   let mut count_second:u64 = 0;
